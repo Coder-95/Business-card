@@ -1,0 +1,61 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+   width: 400px;
+    /*justify-self: center;  This works also as a solution to center the card */
+   margin: 0 auto;
+   text-align: center;
+    color: #2b2839;
+    background-color: #D0E7FF;
+    border-bottom: 5px solid #004C99;
+}
+
+.image {
+    width: 150px;
+    height: 180px;
+}
+
+.div1 {
+    padding: 0px 10px;
+
+}
+
+.content {
+    margin-top: -5px;
+}
+
+#contact {
+  text-decoration: underline;
+  margin-top: -10px;
+}
+
+#contactinfo {
+    font-weight: normal;
+    font-size:x-small;
+    margin-top: -15px;
+
+}
+
+.item {
+    padding-top: 6px;
+     padding-bottom: 6px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+li {
+    list-style: none;
+    size: 10px;
+}
